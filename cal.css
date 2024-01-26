@@ -1,0 +1,51 @@
+.zoom{
+    text-align: center;
+    margin-top: 280px;
+    font-size: 45px;
+    border-style: solid;
+    border-radius: 30px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    width: 255px;
+    margin-left: 42%;
+    border-color: rgb(98, 146, 235);
+    border-width: 10px;
+    background-color:rgb(172, 166, 166);
+}
+input{
+    padding: 15px;
+}
+.ac{
+    background-color: rgb(233, 41, 41);
+    width: 42px;
+    padding-left: 8px;
+    margin-left: 1px;
+}
+.number{
+    background-color: black;
+    color: white;
+}
+.number0{
+    margin-left: -15px;
+    background-color: black;
+    color: white;
+}
+.operation{
+    background-color: darkcyan;
+    color: white;
+}
+.equal{
+    background-color: rgb(245, 116, 65);
+}
+.text{
+    background-color: rgb(139, 189, 54);
+    
+}
+h6{
+    margin-top: -46px;
+    margin-bottom: -1px;
+    font-family: cursive;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}

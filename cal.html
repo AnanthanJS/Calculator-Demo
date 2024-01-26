@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+        <div class="zoom">
+        <form name="form1">
+            <input class="text" type="text" name="answer" id="answer"><br><br>
+            <h6>CASHEWO</h6>
+            <input class="number" type="button" value="1" onclick="form1.answer.value+='1'"> 
+            <input class="number" type="button" value="2" onclick="form1.answer.value+='2'"> 
+            <input class="number" type="button" value="3" onclick="form1.answer.value+='3'"> 
+            <input class="operation" type="button" value="+" onclick="form1.answer.value+='+'"><br>
+            <input class="number" type="button" value="4" onclick="form1.answer.value+='4'"> 
+            <input class="number" type="button" value="5" onclick="form1.answer.value+='5'"> 
+            <input class="number" type="button" value="6" onclick="form1.answer.value+='6'"> 
+            <input class="operation" type="button" value="-" onclick="form1.answer.value+='-'"><br>
+            <input class="number" type="button" value="7" onclick="form1.answer.value+='7'"> 
+            <input class="number" type="button" value="8" onclick="form1.answer.value+='8'"> 
+            <input class="number" type="button" value="9" onclick="form1.answer.value+='9'"> 
+            <input class="operation" type="button" value="*" onclick="form1.answer.value+='*'"><br>
+            <input class="ac" type = "button" value = "A/C" onclick="form1.answer.value=' ' "id= "clear" >`
+            <input class="number0" type="button" value="0" onclick="form1.answer.value+='0'">
+            <input class="equal" type="button" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+            <input class="operation" type="button" value="/" onclick="form1.answer.value+='/'">
+            <!--<input class="number" type="button" value="<-" onclick="form1.answer.value =form1.answer.value.slice(0,-1)"-->
+        </form>
+        </div>
+    </body>
+</html>
